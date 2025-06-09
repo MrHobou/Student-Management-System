@@ -1,0 +1,79 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-image: url('../pictures/file.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+} 
+
+.Wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.MedicineIcon img {
+    width: 100px; /* Resize the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Adds rounded corners */
+    display: inline-block;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+
+.text-center {
+    color: #F8F8F8;
+    accent-color: #E3DAC9;
+}
+
+.container {
+    color: #F8F8F8;
+    accent-color: #E3DAC9;
+}
+
+.table {
+    color: #F8F8F8;
+    accent-color: #E3DAC9;
+}
+
+.CreateNew {
+    color: #F8F8F8;
+    accent-color: #E3DAC9;
+}
+
+.AddIcon {
+    outline: none;
+    text-decoration: none;
+    color: #F8F8F8;
+    accent-color: #E3DAC9;
+    margin-bottom: 15px;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 5px;
+
+}
+
+.ManageMedicine {
+    text-align: center;
+}
+
